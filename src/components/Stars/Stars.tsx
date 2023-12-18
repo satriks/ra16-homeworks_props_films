@@ -13,7 +13,7 @@ const Stars = (counter : Props): React.ReactNode  => {
     
     return (
         <ul className="star__list">
-        {Array.from({ length: count }, (_:  any, index : number) => ( //eslint-disable-line 
+        {Array.from({ length: count }, (_, index) => ( 
             <Star key={index}/>
               )
             )}
